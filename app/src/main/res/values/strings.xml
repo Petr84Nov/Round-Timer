@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Round Timer</string>
+    <string name="rounds">Rounds:</string>
+    <string name="round_time">Round time</string>
+    <string name="pause_time">Pause time</string>
+    <string name="minutes">Min</string>
+    <string name="seconds">Sec</string>
+    <string name="exit">Exit</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="data">DATA</string>
+    <string name="round_minutes">ROUND_MINUTES</string>
+    <string name="rounds_data">ROUNDS_DATA</string>
+    <string name="round_seconds">ROUND_SECONDS</string>
+    <string name="pause_minutes">PAUSE_MINUTES</string>
+    <string name="pause_seconds">PAUSE_SECONDS</string>
+    <string name="round_time_zero">Round time does not be 0</string>
+    <string name="pause_time_zero">Pause time does not be 0</string>
+    <string name="_01">01</string>
+    <string name="_00">00</string>
+</resources>

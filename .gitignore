@@ -1,0 +1,35 @@
+# Android Studio
+.idea/
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle
+.gradle/
+build/
+.externalNativeBuild/
+.cxx/
+
+# Lokální soubory
+/local.properties
+*.log
+
+# APK a další generované soubory
+*.apk
+*.ap_
+*.aab
+*.keystore
+
+# Firebase
+google-services.json
+
+# Systémové soubory
+.DS_Store
+Thumbs.db
+
+# Cache
+/captures

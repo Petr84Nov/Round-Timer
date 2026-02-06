@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_color"
+    android:paddingBottom="15dp"
+    android:fillViewport="true"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/lyRounds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_format"
+                android:text="@string/rounds" />
+
+            <Button
+                android:id="@+id/btnRoundsPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_up"
+                />
+
+            <EditText
+                android:id="@+id/edRounds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_format"
+                android:text="1"
+                android:inputType="number"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+
+            <Button
+                android:id="@+id/btnRoundsMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_down"
+                />
+
+            <TextView
+                android:id="@+id/txtRoundNumber"
+                style="@style/text_format"
+                android:layout_marginStart="10dp"
+                android:text="1 / 10"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/white_line"/>
+
+        <TextView
+            style="@style/text_format"
+            android:text="@string/round_time"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                style="@style/text_format"
+                android:text="@string/minutes"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/lyRoundMinutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnRoundMinutesPlus"
+                    style="@style/text_format"
+                    android:background="@drawable/arrow_up"/>
+
+                <EditText
+                    android:id="@+id/edRoundMinutes"
+                    style="@style/text_format"
+                    android:text="1"
+                    android:inputType="number"/>
+
+                <Button
+                    android:id="@+id/btnRoundMinutesMinus"
+                    style="@style/text_format"
+                    android:background="@drawable/arrow_down"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtRoundColon"
+                style="@style/text_format"
+                android:textSize="36sp"
+                android:text=":" />
+
+            <LinearLayout
+                android:id="@+id/lyRoundSeconds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnRoundSecondsPlus"
+                    style="@style/text_format"
+                    android:background="@drawable/arrow_up"/>
+
+                <EditText
+                    android:id="@+id/edRoundSeconds"
+                    style="@style/text_format"
+                    android:text="1"
+                    android:inputType="number"/>
+
+                <Button
+                    android:id="@+id/btnRoundSecondsMinus"
+                    style="@style/text_format"
+                    android:background="@drawable/arrow_down"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtRoundTime"
+                style="@style/text_format"
+                android:text="05 : 30"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="30dp"
+                android:visibility="gone"/>
+
+            <TextView
+                style="@style/text_format"
+                android:text="@string/seconds"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/white_line"/>
+
+        <TextView
+            style="@style/text_format"
+            android:text="@string/pause_time"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                style="@style/text_format"
+                android:text="@string/minutes"/>
+
+            <LinearLayout
+                android:id="@+id/lyPauseMinutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/btnPauseMinutesPlus"
+                    style="@style/text_format"
+                    android:background="@drawable/arrow_up"/>
+
+                <EditText
+                    android:id="@+id/edPauseMinutes"
+                    style="@style/text_format"
+                    android:text="1"
+                    android:inputType="number"/>
+
+                <Button
+                    android:id="@+id/btnPauseMinutesMinus"
+                    style="@style/text_format"
+                    android:background="@drawable/arrow_down"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtPauseColon"
+                style="@style/text_format"
+                android:textSize="36sp"
+                android:text=":" />
+
+            <LinearLayout
+                android:id="@+id/lyPauseSeconds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/btnPauseSecondsPlus"
+                    style="@style/text_format"
+                    android:background="@drawable/arrow_up"/>
+
+                <EditText
+                    android:id="@+id/edPauseSeconds"
+                    style="@style/text_format"
+                    android:text="1"
+                    android:inputType="number"/>
+
+                <Button
+                    android:id="@+id/btnPauseSecondsMinus"
+                    style="@style/text_format"
+                    android:background="@drawable/arrow_down"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtPauseTime"
+                style="@style/text_format"
+                android:text="00 : 30"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="30dp"
+                android:visibility="gone"/>
+
+            <TextView
+                style="@style/text_format"
+                android:text="@string/seconds"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/white_line"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp">
+
+            <Button
+                android:id="@+id/btnExit"
+                style="@style/button_primary"
+                android:background="@drawable/button_background"
+                android:text="@string/exit"/>
+
+            <Button
+                android:id="@+id/btnReset"
+                style="@style/button_primary"
+                android:layout_marginHorizontal="15dp"
+                android:background="@drawable/button_background"
+                android:text="@string/reset" />
+
+            <Button
+                android:id="@+id/btnStart"
+                style="@style/button_primary"
+                android:background="@drawable/button_background"
+                android:text="@string/start"/>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</ScrollView>
