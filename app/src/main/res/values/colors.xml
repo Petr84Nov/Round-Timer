@@ -9,7 +9,9 @@
     <color name="heavy_orange">#D84315</color>
     <color name="light_gray">#33FFFFFF</color>
     <color name="red">#FB2414</color>
-
     <color name="pink2">#ff5858</color>
     <color name="orange2">#f09819</color>
+
+    <color name="medium_aquamarine">#66CDAA</color>
+    <color name="lime">#00FF00</color>
 </resources>
