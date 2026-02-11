@@ -3,14 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#33000000</color>
-    <color name="orange">#FFA726</color>
-    <color name="medium_orange">#FF6F00</color>
-    <color name="semi_orange">#FF5722</color>
-    <color name="heavy_orange">#D84315</color>
-    <color name="light_gray">#33FFFFFF</color>
-    <color name="red">#FB2414</color>
-    <color name="pink2">#ff5858</color>
-    <color name="orange2">#f09819</color>
 
     <color name="medium_aquamarine">#66CDAA</color>
     <color name="lime">#00FF00</color>
